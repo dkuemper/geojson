@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:geopoint/geopoint.dart';
+import 'package:geopoint3/geopoint.dart';
 
 /// Geojson feature types
 enum GeoJsonFeatureType {

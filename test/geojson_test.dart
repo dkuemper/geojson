@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import "package:geojson/geojson.dart";
-import 'package:geopoint/geopoint.dart';
+import 'package:geopoint3/geopoint.dart';
 import "package:test/test.dart";
 
 import 'data.dart';

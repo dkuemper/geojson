@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:geojson/geojson.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:geopoint/geopoint.dart';
+import 'package:geopoint3/geopoint.dart';
 import 'package:flutter_map/flutter_map.dart';
 
 class _NearbyAirportsPageState extends State<NearbyAirportsPage> {
