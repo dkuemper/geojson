@@ -12,7 +12,7 @@ dependencies:
   geopoint3: ^0.9.1
   iso: 
     git:
-      url: https://github.com/dkuemper/geojson
+      url: https://github.com/dkuemper/iso
   pedantic: ^1.11.1
 
 dev_dependencies:
