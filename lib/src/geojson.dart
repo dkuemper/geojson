@@ -470,7 +470,7 @@ class GeoJson {
           if (nameProperty != null) {
             feature.geometry.name = properties![nameProperty];
           }
-          for (final geom in geometry["geometries"]) {
+          for (final geom in geometry["geometries"] as Iterable) {
             feature.geometry.add(_processGeometry(
                 geom as Map<String, dynamic>, properties, nameProperty));
           }

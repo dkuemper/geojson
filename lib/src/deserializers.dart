@@ -108,7 +108,7 @@ GeoJsonMultiPolygon getMultiPolygon(
     final name =
         _getName(feature: feature, nameProperty: nameProperty, index: i);
     polygon.name = name;
-    for (final coords in coordsL2) {
+    for (final coords in coordsL2 as Iterable) {
       final geoSerie = GeoSerie(
           name: _getName(feature: feature, nameProperty: nameProperty),
           type: GeoSerieType.polygon)
